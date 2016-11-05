@@ -9,4 +9,4 @@ skills that i have displayed after i have completed this mini-project:
 -abillity to use web inspector for both js debugging and html/css adjusting.  
 -master googling skills.  
 
-From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css).
+From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/javascript-and-jquery).
