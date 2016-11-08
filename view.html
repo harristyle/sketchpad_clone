@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sketchpad_clone</title>
+		<link rel="stylesheet" href="styles/sketchpad_style.css">
+		<script type="text/javascript" src="scripts/jQuery.js"></script>
+		<script type="text/javascript" src="scripts/sketchpad_behaviour.js"></script>
+	</head>
+	<body>
+		<div id="project_wrapper">
+			<div id="grid_container"></div>
+			<form id="rc_form" action="#">
+				<div id="label_wrapper">
+					<label id="rows_label" for="rows">rows</label>
+					<label id="columns_label" for="columns">columns</label>
+				</div>
+				<input class="dimensions" id="rows" type="text" name="row" required="required" pattern="^\d{1,2}$">
+				<input class="dimensions" id="columns" type="text" name="column" required="required" pattern="^\d{1,2}$">
+				<input id="submit" type="submit">
+			</form>
+		</div>
+	</body>
+</html>

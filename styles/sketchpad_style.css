@@ -1,0 +1,57 @@
+#grid_container{
+	display: block;
+	width: 500px;height: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.grid{
+	display: inline-block;
+	float: left;
+}
+.grid:hover{
+
+}
+
+/*.background{
+	background-color:#000000;
+}*/
+
+#rc_form{
+	width: 150px;
+	margin: 0 auto;
+}
+
+#label_wrapper{
+	display: block;
+}
+
+#rows,#columns{
+	width: 50px;
+	clear: right;
+}
+
+#rows, #rows_label{
+	float: left;
+}
+
+#rows_label{
+	padding-left: 10px;
+}
+
+#columns, #columns_label{
+	float: right;
+}
+
+#submit{
+	display: block; position: relative;
+	width: 60px;
+	margin:0 auto;
+	top:10px;
+	-webkit-appearance: none;
+	border: 0px;
+	padding: 5px;
+}
+
+#submit:active{
+	background-color: #ae54f2;
+}
